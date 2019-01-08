@@ -3,9 +3,8 @@
 function getIt() {
   alert("Hey!");
 }
-
+let tasty = 'img.tasty';
 function frameIt () {
-  let tasty = 'img.tasty';
     $('tasty').css('border-color', 'red');
 }
 
