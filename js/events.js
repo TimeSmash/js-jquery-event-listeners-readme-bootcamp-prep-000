@@ -5,9 +5,7 @@ function getIt() {
 }
 
 function frameIt () {
-  $('img.tasty').on('load', function () {
     $('img.tasty').css('border-color', 'red');
-  });
 }
 
 function pressIt() {
@@ -19,7 +17,7 @@ function pressIt() {
 }
 $(document).ready(function(){
 $('p').on('click', getIt())
-frameIt();
+$('img.tasty').on('load', frameIt());
 pressIt();
 // call functions here
 
