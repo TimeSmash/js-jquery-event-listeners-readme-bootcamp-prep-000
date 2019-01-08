@@ -14,7 +14,9 @@ function frameIt () {
 
 function pressIt() {
   $('input').on('keydown', function(key) {
-    if (key == 071)
+    if (key == 71) {
+      
+    }
   })
 }
 $(document).ready(function(){
