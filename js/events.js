@@ -5,7 +5,8 @@ function getIt() {
 }
 
 function frameIt () {
-    $('img.tasty').css('border-color', 'red');
+  let tasty = 'img.tasty';
+    $('tasty').css('border-color', 'red');
 }
 
 function pressIt() {
