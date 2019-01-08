@@ -3,9 +3,9 @@
 function getIt() {
   alert("Hey!");
 }
-let tasty = 'img.tasty';
+
 function frameIt () {
-    $('tasty').css('border-color', 'red');
+    $('img.tasty').css('border-color', 'red');
 }
 
 function pressIt() {
@@ -15,9 +15,11 @@ function pressIt() {
     }
   })
 }
+
+let tasty = $('img.tasty')
 $(document).ready(function(){
 $('p').on('click', getIt())
-$('img.tasty').on('load', frameIt());
+$('tasty').on('load', frameIt());
 pressIt();
 // call functions here
 
