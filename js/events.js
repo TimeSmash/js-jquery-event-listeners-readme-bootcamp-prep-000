@@ -15,13 +15,14 @@ function frameIt () {
 function pressIt() {
   $('input').on('keydown', function(key) {
     if (key == 71) {
-      
+      alert('You have pressed the g key.')
     }
   })
 }
 $(document).ready(function(){
 getIt();
 frameIt();
+pressIt();
 // call functions here
 
 });
