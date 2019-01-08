@@ -8,7 +8,7 @@ function getIt() {
 
 function frameIt () {
   $('img.tasty').on('load', function () {
-    //add red frame
+    $('img.tasty').css()
   })
 }
 
